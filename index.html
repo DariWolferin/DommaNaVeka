@@ -1,0 +1,690 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+   <meta charset="UTF-8">
+   <meta http-equiv="X-UA-Compatible" content="IE=edge">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <link rel="stylesheet" href="css/swiper.min.css">
+   <link rel="stylesheet" href="css/style.css">
+   <title>Дома На Века</title>
+</head>
+
+<body>
+   <div class="wrapper">
+      <header class="header lock-padding" id="header">
+         <div class="container">
+            <div class="header__body">
+               <div class="header__logo">
+                  <a href="#home"><img src="img/icons/logo.png" alt="logo"></a>
+               </div>
+               <div class="header__burger">
+                  <span></span>
+               </div>
+               <div class="header__contact">
+                  <div class="header__time">
+                     <p><span>с 9:0 до 21:00
+                        </span></p>
+                     <p>без выходных</p>
+                  </div>
+                  <div class="header__phone phone">
+                     <div class="phone__desc">
+                        <p>Есть вопросы? Звоните!</p>
+                        <p><a href="tel:+74952042376">+7 (495) 204-23-76</a></p>
+                     </div>
+                     <div class="phone__link">
+                        <a class="link popup-link" href="#popup">Заказать звонок</a>
+                     </div>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </header>
+      <main class="page" id="home">
+         <section class="main">
+            <div class="main__title-block title-block">
+               <div class="title-block__top-item">
+                  <h1>Строим Дома</h1>
+                  <p>из бетона, кирпича, поризованных
+                     блоков и пеноблоков</p>
+                  <p><span>в Москве и МО
+                        с гарантией 20 лет</span></p>
+               </div>
+            </div>
+            <div class="main__body">
+               <div class="main__desc desc">
+                  <div class="desc__item">
+                     <p>У нас 7 бригад
+                        строителей</p>
+                     <p>Опыт работы
+                        19 лет</p>
+                     <p>Создаем дома
+                        "под ключ",
+                        <span>реконструируем
+                           или достраиваем</span>
+                     </p>
+                  </div>
+               </div>
+               <div class="main__center-image">
+                  <img src="img/family.png" alt="family">
+               </div>
+            </div>
+            <div class="main__form form-main _anim _anim-no-hide">
+               <h3>Бесплатно составим
+                  смету на строительство
+                  вашего дома уже сегодня!</h3>
+               <form action="mail.php" class="forms" enctype="multipart/form-data" id="form" method="POST">
+                  <input type="hidden" name="form_subject" value="Тема письма: Дома на века">
+                  <input class="input" type="text" name="name" placeholder="Ваше имя">
+                  <input class="input _req" type="tel" data-validate-field="tel" name="phone"
+                     placeholder="Ваш телефон*">
+                  <button type="submit" class="form-main__btn link">Заказать смету</button>
+               </form>
+            </div>
+         </section>
+         <section class="tabs">
+            <div class="container">
+               <div class="tabs__title _anim _anim-opac _anim-no-hide">
+                  <h2 class="title">У нас есть уже готовые проекты</h2>
+               </div>
+               <div class="tabs__nav _anim _anim-opac _anim-no-hide">
+                  <button class="tabs__nav-btn" type="button" data-tab="#tab_1">эконом</button>
+                  <button class="tabs__nav-btn" type="button" data-tab="#tab_2">средний</button>
+                  <button class="tabs__nav-btn" type="button" data-tab="#tab_3">премиум</button>
+               </div>
+               <div class="tabs__content">
+                  <div class="tabs__item" id="tab_1">
+                     <div class="swiper-container tabs-swiper">
+                        <div class="swiper-wrapper">
+                           <div class="swiper-slide">
+                              <div class="tabs-swiper__image">
+                                 <img src="img/slider_1.jpg" alt="house">
+                              </div>
+                              <div class="tabs-swiper__desc">
+                                 <h3>Проект Дома Навека 1</h3>
+                                 <p>Площадь: 102 м2</p>
+                                 <p> <span>Размеры: 10х23х5</span></p>
+                              </div>
+                              <div class="tabs-swiper__link">
+                                 <a class="link" href="#!">Подробнее о проекте</a>
+                              </div>
+                           </div>
+                           <div class="swiper-slide">
+                              <div class="tabs-swiper__image">
+                                 <img src="img/slider_2.jpg" alt="house">
+                              </div>
+                              <div class="tabs-swiper__desc">
+                                 <h3>Проект Дома Навека 2</h3>
+                                 <p>Площадь: 102 м2</p>
+                                 <p> <span>Размеры: 10х23х5</span></p>
+                              </div>
+                              <div class="tabs-swiper__link">
+                                 <a class="link" href="#!">Подробнее о проекте</a>
+                              </div>
+                           </div>
+                           <div class="swiper-slide">
+                              <div class="tabs-swiper__image">
+                                 <img src="img/slider_3.jpg" alt="house">
+                              </div>
+                              <div class="tabs-swiper__desc">
+                                 <h3>Проект Дома Навека 3</h3>
+                                 <p>Площадь: 102 м2</p>
+                                 <p> <span>Размеры: 10х23х5</span></p>
+                              </div>
+                              <div class="tabs-swiper__link">
+                                 <a class="link" href="#!">Подробнее о проекте</a>
+                              </div>
+                           </div>
+                        </div>
+                        <div class="swiper-pagination"></div>
+                        <div class="swiper-button-prev"><img src="img/icons/arrow.png" alt="arrow"></div>
+                        <div class="swiper-button-next"><img src="img/icons/arrow.png" alt="arrow"></div>
+                     </div>
+                     <div class="tabs__img _anim _anim-opac _anim-no-hide">
+                        <img src="img/listya_1308.png" alt="">
+                     </div>
+                  </div>
+                  <div class="tabs__item" id="tab_2">
+                     <div class="swiper-container tabs-swiper">
+                        <div class="swiper-wrapper">
+                           <div class="swiper-slide">
+                              <div class="tabs-swiper__image">
+                                 <img src="img/slider_3.jpg" alt="house">
+                              </div>
+                              <div class="tabs-swiper__desc">
+                                 <h3>Проект Дома Навека 1</h3>
+                                 <p>Площадь: 102 м2</p>
+                                 <p> <span>Размеры: 10х23х5</span></p>
+                              </div>
+                              <div class="tabs-swiper__link">
+                                 <a class="link" href="#!">Подробнее о проекте</a>
+                              </div>
+                           </div>
+                           <div class="swiper-slide">
+                              <div class="tabs-swiper__image">
+                                 <img src="img/slider_1.jpg" alt="house">
+                              </div>
+                              <div class="tabs-swiper__desc">
+                                 <h3>Проект Дома Навека 2</h3>
+                                 <p>Площадь: 102 м2</p>
+                                 <p> <span>Размеры: 10х23х5</span></p>
+                              </div>
+                              <div class="tabs-swiper__link">
+                                 <a class="link" href="#!">Подробнее о проекте</a>
+                              </div>
+                           </div>
+                           <div class="swiper-slide">
+                              <div class="tabs-swiper__image">
+                                 <img src="img/slider_2.jpg" alt="house">
+                              </div>
+                              <div class="tabs-swiper__desc">
+                                 <h3>Проект Дома Навека 3</h3>
+                                 <p>Площадь: 102 м2</p>
+                                 <p> <span>Размеры: 10х23х5</span></p>
+                              </div>
+                              <div class="tabs-swiper__link">
+                                 <a class="link" href="#!">Подробнее о проекте</a>
+                              </div>
+                           </div>
+                        </div>
+                        <div class="swiper-pagination"></div>
+                        <div class="swiper-button-prev"><img src="img/icons/arrow.png" alt="arrow"></div>
+                        <div class="swiper-button-next"><img src="img/icons/arrow.png" alt="arrow"></div>
+                     </div>
+                     <div class="tabs__img">
+                        <img src="img/listya_1308.png" alt="">
+                     </div>
+                  </div>
+                  <div class="tabs__item" id="tab_3">
+                     <div class="swiper-container tabs-swiper">
+                        <div class="swiper-wrapper">
+                           <div class="swiper-slide">
+                              <div class="tabs-swiper__image">
+                                 <img src="img/slider_2.jpg" alt="house">
+                              </div>
+                              <div class="tabs-swiper__desc">
+                                 <h3>Проект Дома Навека 1</h3>
+                                 <p>Площадь: 102 м2</p>
+                                 <p> <span>Размеры: 10х23х5</span></p>
+                              </div>
+                              <div class="tabs-swiper__link">
+                                 <a class="link" href="#!">Подробнее о проекте</a>
+                              </div>
+                           </div>
+                           <div class="swiper-slide">
+                              <div class="tabs-swiper__image">
+                                 <img src="img/slider_3.jpg" alt="house">
+                              </div>
+                              <div class="tabs-swiper__desc">
+                                 <h3>Проект Дома Навека 2</h3>
+                                 <p>Площадь: 102 м2</p>
+                                 <p> <span>Размеры: 10х23х5</span></p>
+                              </div>
+                              <div class="tabs-swiper__link">
+                                 <a class="link" href="#!">Подробнее о проекте</a>
+                              </div>
+                           </div>
+                           <div class="swiper-slide">
+                              <div class="tabs-swiper__image">
+                                 <img src="img/slider_1.jpg" alt="house">
+                              </div>
+                              <div class="tabs-swiper__desc">
+                                 <h3>Проект Дома Навека 3</h3>
+                                 <p>Площадь: 102 м2</p>
+                                 <p> <span>Размеры: 10х23х5</span></p>
+                              </div>
+                              <div class="tabs-swiper__link">
+                                 <a class="link" href="#!">Подробнее о проекте</a>
+                              </div>
+                           </div>
+                        </div>
+                        <div class="swiper-pagination"></div>
+                        <div class="swiper-button-prev"><img src="img/icons/arrow.png" alt="arrow"></div>
+                        <div class="swiper-button-next"><img src="img/icons/arrow.png" alt="arrow"></div>
+                     </div>
+                     <div class="tabs__img">
+                        <img src="img/listya_1308.png" alt="">
+                     </div>
+                  </div>
+               </div>
+            </div>
+         </section>
+         <section class="slider-two">
+            <div class="container">
+               <div class="slider-two__body">
+                  <div class="slider-two__title">
+                     <h2 class="title _anim _anim-opac _anim-no-hide">Мы построим Вам дом по индивидуальному плану
+                        разработанному в нашем проектном бюро</h2>
+                     <p class="subtitle _anim _anim-opac _anim-no-hide">За 19 лет мы разработали более 500
+                        индивидуальных проектов</p>
+                  </div>
+                  <div class="slider-two__slider-first slider-first">
+                     <div class="swiper-container slider-first__container">
+                        <div class="slider-first__wrapper swiper-wrapper">
+                           <div class="swiper-slide">
+                              <img src="img/slider_2.jpg" alt="">
+                           </div>
+                           <div class="swiper-slide">
+                              <img src="img/slider_3.jpg" alt="">
+                           </div>
+                           <div class="swiper-slide">
+                              <img src="img/slider_1.jpg" alt="">
+                           </div>
+                           <div class="swiper-slide">
+                              <img src="img/slider_4.jpg" alt="">
+                           </div>
+                           <div class="swiper-slide">
+                              <img src="img/slider_5.jpg" alt="">
+                           </div>
+                        </div>
+                        <div class="swiper-button-prev"><img src="img/icons/arrow.png" alt="arrow"></div>
+                        <div class="swiper-button-next"><img src="img/icons/arrow.png" alt="arrow"></div>
+                     </div>
+                  </div>
+                  <p class="slider-two__subtitle subtitle _anim _anim-opac _anim-no-hide">Мы разрабатываем
+                     оригинальные,конструктивно сложные проекты и реализуем их</p>
+                  <div class="slider-two__slider-second slider-second">
+                     <div class="swiper-container slider-second__container">
+                        <div class="slider-second__wrapper swiper-wrapper">
+                           <div class="swiper-slide">
+                              <img src="img/slider_4.jpg" alt="">
+                           </div>
+                           <div class="swiper-slide">
+                              <img src="img/slider_5.jpg" alt="">
+                           </div>
+                           <div class="swiper-slide">
+                              <img src="img/slider_3.jpg" alt="">
+                           </div>
+                           <div class="swiper-slide">
+                              <img src="img/slider_1.jpg" alt="">
+                           </div>
+                           <div class="swiper-slide">
+                              <img src="img/slider_2.jpg" alt="">
+                           </div>
+                        </div>
+                        <div class="swiper-button-prev"><img src="img/icons/arrow.png" alt="arrow"></div>
+                        <div class="swiper-button-next"><img src="img/icons/arrow.png" alt="arrow"></div>
+                     </div>
+                  </div>
+                  <div class="slider-two__forms _anim _anim-opac _anim-no-hide">
+                     <h3>Мы готовы разработать для Вас индивидуальный проект дома по Вашим пожеланиям
+                        Либо использовать для строительства Ваш собственный проект</h3>
+                     <p>Заполните форму ниже - мы свяжемся с Вами для обсуждения деталей проекта</p>
+                     <form action="#" class="slider-two__form" id="form">
+                        <input class="input" type="text" name="name" placeholder="Ваше имя">
+                        <input class="input" type="tel" data-validate-field="tel" name="phone"
+                           placeholder="Ваш телефон*">
+                        <button type="submit" class="slider-two__btn link">Заказать
+                           обратный звонок</button>
+                     </form>
+                  </div>
+               </div>
+            </div>
+            <img class="slider-two__img _anim _anim-opac _anim-no-hide" src="img/listya_1308.png" alt="">
+            <img class="slider-two__bg" src="img/house1,1.png" alt="">
+         </section>
+         <section class="house-model">
+            <div class="container">
+               <div class="house-model__body">
+                  <h2 class="house-model__title title _anim _anim-opac _anim-no-hide">Гарантия 20 лет на качество
+                     строительства дома
+                     прописана в договоре</h2>
+                  <p class="house-model__subtitle subtitle _anim _anim-opac _anim-no-hide">Мы контролируем процесс
+                     строительства на
+                     каждом этапе
+                     от его начала до момента сдачи объекта заказчику</p>
+                  <div class="house-model__img">
+                     <img class="_anim _anim-scal _anim-no-hide" src="img/house-image2.png" alt="house">
+                     <div class="house-model__option house-model__option_1 _anim _anim-no-hide">
+                        <p>Дымоход</p>
+                     </div>
+                     <div class="house-model__option house-model__option_2 _anim _anim-no-hide">
+                        <p>Кровля</p>
+                     </div>
+                     <div class="house-model__option house-model__option_3 _anim _anim-no-hide">
+                        <p>Оконный проем</p>
+                     </div>
+                     <div class="house-model__option house-model__option_4 _anim _anim-no-hide">
+                        <p>Утепление стен</p>
+                     </div>
+                     <div class="house-model__option house-model__option_5 _anim _anim-no-hide">
+                        <p>Фундамент</p>
+                     </div>
+                     <div class="house-model__option house-model__option_6 _anim _anim-no-hide">
+                        <p>Утепление пола</p>
+                     </div>
+                     <div class="house-model__option house-model__option_7 _anim  _anim-no-hide">
+                        <p>Дверной проем</p>
+                     </div>
+                     <div class="house-model__option house-model__option_8 _anim _anim-no-hide">
+                        <p>Утепление потолка</p>
+                     </div>
+
+                  </div>
+               </div>
+            </div>
+         </section>
+         <section class="material">
+            <div class="container">
+               <div class="material__body">
+                  <h2 class="title _anim _anim-opac _anim-no-hide">Мы построим для Вас дом
+                     из выбранного Вами материала</h2>
+                  <div class="material__row">
+                     <div class="material__item _anim _anim-opac _anim-no-hide">
+                        <img src="img/material_1.png" alt="material">
+                        <p>из бетона</p>
+                     </div>
+                     <div class="material__item _anim _anim-opac _anim-no-hide">
+                        <img src="img/material_2.png" alt="material">
+                        <p>из кирпича</p>
+                     </div>
+                     <div class="material__item _anim _anim-opac _anim-no-hide">
+                        <img src="img/material_3.png" alt="material">
+                        <p>из поризованных блоков</p>
+                     </div>
+                     <div class="material__item _anim _anim-opac _anim-no-hide">
+                        <img src="img/material_4.png" alt="material">
+                        <p>пеноблоков</p>
+                     </div>
+                  </div>
+               </div>
+            </div>
+         </section>
+         <section class="work">
+            <div class="container">
+               <div class="work__body">
+                  <h2 class="title _anim _anim-opac _anim-no-hide">Мы всегда укладываемся в сроки
+                     прописанные в договоре на строительство</h2>
+                  <div class="work__columns">
+                     <div class="work__column _anim _anim-opac _anim-no-hide">
+                        <img src="img/icons/work_1.png" alt="">
+                        <div class="work__desc ">
+                           <p>Мы используем современную технику и инструмент при производстве работ</p>
+                           <p><span>Это в разы сокращает сроки строительства</span></p>
+                        </div>
+                     </div>
+                     <div class="work__column _anim _anim-opac _anim-no-hide">
+                        <img src="img/icons/work_2.png" alt="">
+                        <div class="work__desc ">
+                           <p>У нас в штате 7 бригад опытных специалистов
+                              своего дела </p>
+                           <p><span>Мы имеем конкурентное преимущество в качестве выполняемых работ</span></p>
+                        </div>
+                     </div>
+                     <div class="work__column _anim _anim-opac _anim-no-hide">
+                        <img src="img/icons/work_3.png" alt="">
+                        <div class="work__desc ">
+                           <p>Отдел технического контроля нашей компании
+                              проверяет каждый этап строительства</p>
+                           <p><span>Это позволяет исключить производственный брак на каждом этапе строительства</span>
+                           </p>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+            </div>
+            <img class="work__img" src="img/listya_1308.png" alt="">
+         </section>
+         <section class="worker">
+            <div class="container">
+               <div class="worker__body">
+                  <h2 class="title _anim _anim-opac _anim-no-hide">Все сотрудники в нашем штате
+                     имеют высшее инженерно-строительное образование</h2>
+                  <div class="worker__row">
+                     <div class="worker__video video-worker _anim _anim-opac _anim-no-hide">
+                        <div class="video-worker__item video-worker__frame">
+                           <iframe src="https://www.youtube.com/embed/s1ydBbkXFb4" frameborder="0"
+                              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                              allowfullscreen></iframe>
+                           <div class="worker__img _anim _anim-opac _anim-no-hide">
+                              <img src="img/vetki.png" alt="">
+                           </div>
+                        </div>
+                     </div>
+                     <div class="worker__desc desc-worker _anim _anim-opac _anim-no-hide">
+                        <div class="desc-worker__top">
+                           <p><span>Евтушенко Дмитрий</span></p>
+                           <p>Генеральный директор
+                              ООО "Дома Навека"</p>
+                        </div>
+                        <div class="desc-worker__bottom">
+                           <p>Вы можете напрямую связаться с директором по телефону:</p>
+                           <p><a href="tel:+74952042376">+7 (495) 204-23-76</a></p>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+            </div>
+         </section>
+         <section class="people-company">
+            <div class="container">
+               <div class="people-company__body">
+                  <h2 class="title _anim _anim-opac _anim-no-hide">Ключевые лица нашей компании</h2>
+                  <div class="people-company__row">
+                     <div class="people-company__item _anim _anim-opac _anim-no-hide">
+                        <div class="people-company__img">
+                           <img src="img/man_2.jpg" alt="">
+                        </div>
+                        <p><span>Васильев Алексей</span></p>
+                        <p>Главный инженер</p>
+                        <div class="people-company__desc">
+                           <p>Образование - БГТУ.</p>
+                           <p>Стаж с 2004 года.</p>
+                           <p> Принимал участие в проектировании и монтаже более 200 объектов в России и за рубежом.
+                           </p>
+                           <p> Внештатный консультант пяти действующих строительных компаний Москвы</p>
+                        </div>
+                     </div>
+                     <div class="people-company__item _anim _anim-opac _anim-no-hide">
+                        <div class="people-company__img">
+                           <img src="img/man_1.jpg" alt="">
+                        </div>
+                        <p><span>Архипенко Владислав</span></p>
+                        <p>Инженер</p>
+                        <div class="people-company__desc">
+                           <p>Образование - БГТУ.</p>
+                           <p>Стаж с 2004 года.</p>
+                           <p> Принимал участие в проектировании и монтаже более 200 объектов в России и за рубежом.
+                           </p>
+                           <p> Внештатный консультант пяти действующих строительных компаний Москвы</p>
+                        </div>
+                     </div>
+                     <div class="people-company__item _anim _anim-opac _anim-no-hide">
+                        <div class="people-company__img">
+                           <img src="img/man_3.jpg" alt="">
+                        </div>
+                        <p><span>Семёнов Пётр</span></p>
+                        <p>Прораб</p>
+                        <div class="people-company__desc">
+                           <p>Образование - БГТУ.</p>
+                           <p>Стаж с 2004 года.</p>
+                           <p> Принимал участие в проектировании и монтаже более 200 объектов в России и за рубежом.
+                           </p>
+                           <p> Внештатный консультант пяти действующих строительных компаний Москвы</p>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+            </div>
+         </section>
+         <section class="questions">
+            <div class="container">
+               <div class="questions__body">
+                  <div class="questions__title">
+                     <h2 class="title _anim _anim-opac _anim-no-hide">Часто задаваемые вопросы</h2>
+                     <p class="subtitle _anim _anim-opac _anim-no-hide">
+                        На Ваши вопросы ответит Евтушенко Дмитрий
+                     </p>
+                  </div>
+                  <div class="questions__row">
+                     <ol class="questions__accordeon accordeon _anim _anim-opac _anim-no-hide">
+                        <li class="accordeon__item">
+                           <div class="accordeon__title">
+                              <h3>Что делать, если запчасть не понадобилась?</h3>
+                           </div>
+                           <div class="accordeon__content">
+                              <p>Значимость этих проблем настолько очевидна, что новая модель организационной
+                                 деятельности, в своём классическом представлении, допускает внедрение экономической
+                                 целесообразности принимаемых решений. Разнообразный и богатый опыт говорит нам, что
+                                 начало повседневной работы по формированию позиции является качественно новой ступенью
+                                 позиций, занимаемых участниками в отношении поставленных задач.</p>
+                           </div>
+                        </li>
+                        <li class="accordeon__item">
+                           <div class="accordeon__title">
+                              <h3>Как долго доставляется деталь?</h3>
+                           </div>
+                           <div class="accordeon__content">
+                              <p>С учётом сложившейся международной обстановки, перспективное планирование требует
+                                 определения и уточнения укрепления моральных ценностей. А также стремящиеся вытеснить
+                                 традиционное производство, нанотехнологии функционально разнесены на независимые
+                                 элементы.</p>
+                           </div>
+                        </li>
+                        <li class="accordeon__item">
+                           <div class="accordeon__title">
+                              <h3>Можете ли Вы установить деталь?</h3>
+                           </div>
+                           <div class="accordeon__content">
+                              <p>Прежде всего, сплочённость команды профессионалов однозначно определяет каждого
+                                 участника как способного принимать собственные решения касаемо глубокомысленных
+                                 рассуждений. Но граница обучения кадров прекрасно подходит для реализации системы
+                                 массового участия.</p>
+                           </div>
+                        </li>
+                        <li class="accordeon__item">
+                           <div class="accordeon__title">
+                              <h3>Какой транспортной компанией доставляется деталь?</h3>
+                           </div>
+                           <div class="accordeon__content">
+                              <p>Таким образом, сложившаяся структура организации предполагает независимые способы
+                                 реализации вывода текущих активов! Учитывая ключевые сценарии поведения, новая модель
+                                 организационной деятельности, в своём классическом представлении, допускает внедрение
+                                 существующих финансовых и административных условий.</p>
+                           </div>
+                        </li>
+                        <li class="accordeon__item">
+                           <div class="accordeon__title">
+                              <h3>Как заказать деталь правильно?</h3>
+                           </div>
+                           <div class="accordeon__content">
+                              <p>Как уже неоднократно упомянуто, непосредственные участники технического прогресса
+                                 освещают чрезвычайно интересные особенности картины в целом, однако конкретные выводы,
+                                 разумеется, в равной степени предоставлены сами себе. Но сложившаяся структура
+                                 организации создаёт предпосылки для как самодостаточных, так и внешне зависимых
+                                 концептуальных решений.</p>
+                           </div>
+                        </li>
+                        <li class="accordeon__item">
+                           <div class="accordeon__title">
+                              <h3>Как долго доставляется деталь?</h3>
+                           </div>
+                           <div class="accordeon__content">
+                              <p>Мы вынуждены отталкиваться от того, что перспективное планирование предполагает
+                                 независимые способы реализации как самодостаточных, так и внешне зависимых
+                                 концептуальных решений. С учётом сложившейся международной обстановки, разбавленное
+                                 изрядной долей эмпатии, рациональное мышление позволяет оценить значение анализа
+                                 существующих паттернов поведения.</p>
+                           </div>
+                        </li>
+                        <li class="accordeon__item">
+                           <div class="accordeon__title">
+                              <h3>Что делать, если запчасть не понадобилась?</h3>
+                           </div>
+                           <div class="accordeon__content">
+                              <p>А также стремящиеся вытеснить традиционное производство, нанотехнологии неоднозначны и
+                                 будут объявлены нарушающими общечеловеческие нормы этики и морали. Идейные соображения
+                                 высшего порядка, а также выбранный нами инновационный путь способствует подготовке и
+                                 реализации поэтапного и последовательного развития общества.</p>
+                           </div>
+                        </li>
+                     </ol>
+
+                  </div>
+               </div>
+            </div>
+            <div class="questions__img _anim _anim-opac _anim-no-hide">
+               <p><span>Евтушенко Дмитрий</span>Генеральный директор
+                  ООО "Дома Навека"</p>
+               <img src="img/man.png" alt="">
+            </div>
+            <img src="img/listya_1308.png" alt="" class="questions__absolut">
+         </section>
+         <section class="form _anim _anim-opac _anim-no-hide">
+            <div class="container">
+               <div class="form__title">
+                  <h2>Вы не нашли ответа на свой вопрос? Наши специалисты дадут Вам профессиональную консультацию
+                     абсолютно бесплатно!</h2>
+                  <p>Для этого оставьте свой номер телефона в форме ниже - мы перезвоним Вам в течение 3 минут</p>
+               </div>
+               <div class="form__forms">
+                  <form action="#" id="form">
+                     <input class="input" type="text" name="name" placeholder="Ваше имя">
+                     <input class="input" type="tel" data-validate-field="tel" name="phone" placeholder="Ваш телефон*">
+                     <button type="submit" class="form__btn link"><span>Получить бесплатную
+                           консультацию</span></button>
+                  </form>
+               </div>
+               <div class="form__desc">
+                  <p>Или Вы можете перезвонить нам сами по телефону: <a href="tel:+74952042376">+7 (495) 204-23-76</a>
+                  </p>
+               </div>
+            </div>
+         </section>
+         <section class="contacts">
+            <div class="contacts__body">
+               <div class="contacts__item map">
+                  <script type="text/javascript" charset="utf-8" async
+                     src="https://api-maps.yandex.ru/services/constructor/1.0/js/?um=constructor%3A8bac7a536ee975c231e40b9a95f7e7e51ab4b72ce6b66bd3837cdb935d718151&amp;lang=ru_RU&amp;scroll=true"></script>
+               </div>
+               <div class="contacts__item contacts__desc">
+                  <div class="contacts__title">
+                     <h2>Мы можем показать Вам
+                        еще больше проектов у нас в офисе!</h2>
+                     <p>Приезжайте к нам в гости по адресу:</p>
+                  </div>
+                  <div class="contacts__desc-body">
+                     <div class="contacts__place desc-body">
+                        <img src="img/icons/place.png" alt="place">
+                        <p>МКАД 51 км. ТВК
+                           “Элит Строй Материалы”
+                           павильон L23</p>
+                     </div>
+                     <div class="contacts__phone desc-body">
+                        <img src="img/icons/phone.png" alt="phone">
+                        <p>Звоните прямо сейчас:
+                           <a href="tel: +74952042376"> +7 (495) 204-23-76</a>
+                        </p>
+                     </div>
+                     <div class="contacts__time desc-body">
+                        <img src="img/icons/time.png" alt="place">
+                        <p>с 9:00 до 21:00 <br>
+                           без выходных</p>
+                     </div>
+                  </div>
+               </div>
+            </div>
+         </section>
+
+      </main>
+   </div>
+   <div id="popup" class="popup">
+      <div class="popup__body">
+         <div class="popup__content">
+            <a href="#header" class="popup__close close-popup"><span></span></a>
+            <div class="popup__title">Оставьте свои контактные данные и мы перезвоним Вам!</div>
+            <form action="#" id="form" class="forms">
+               <input class="input" type="text" name="name" placeholder="Ваше имя">
+               <input class="input _req" data-validate-field="tel" type="tel" name="phone" placeholder="Ваш телефон*">
+               <button type="submit" class="form-main__btn link">Заказать звонок</button>
+            </form>
+         </div>
+      </div>
+   </div>
+   <script src="js/inputmask.min.js"></script>
+   <script src="js/just-validate.min.js"></script>
+   <script src="js/swiper.min.js"></script>
+   <script src="js/script.js"></script>
+</body>
+
+</html>
